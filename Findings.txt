@@ -1,0 +1,44 @@
+Findings
+================================================================
+
+1. VPN Encryption Features
+--------------------------
+- ProtonVPN uses strong encryption protocols (e.g. OpenVPN, WireGuard) to secure every packet.
+- Data is encrypted using AES-256 (Advanced Encryption Standard), which is considered military-grade and unbreakable by current technology.
+- Keys are exchanged securely using protocols such as RSA, ensuring only the VPN server and client can decrypt data.
+- Encryption is end-to-end between you and the VPN server, protecting your information even on insecure public Wi-Fi.
+- All DNS queries are also tunneled and encrypted, reducing risk of DNS leaks.
+
+2. Privacy Features
+-------------------
+- VPN masks your real IP address, making it appear as if you are browsing from the VPN server location (e.g. New York, USA, instead of India).
+- VPN hides internet activity from ISPs, public Wi-Fi providers, or local attackers.
+- ProtonVPN maintains a strict no-logs policy (does not monitor or store activity).
+- Kill switch and DNS leak protection settings help prevent accidental data exposure if the VPN disconnects.
+- Split tunneling allows only certain apps/sites to use the VPN, keeping others on the local network for convenience.
+
+3. VPN Benefits Summary
+-----------------------
+- Provides encrypted tunnel for all network traffic, enhancing data security.
+- Prevents eavesdropping, especially on public or untrusted networks (cafés, airports, colleges).
+- Masks real IP, allowing access to geo-restricted services and protecting location privacy.
+- Reduces tracking by advertisers/websites via changing server locations or hiding true identity.
+- Protects sensitive information, logins, and private communications from interception.
+
+4. VPN Limitations Summary
+--------------------------
+- VPN speed may be slower due to encryption overhead and server distance.
+- User must trust the VPN provider, since they can technically see all tunneled traffic (choose a reputable one with no-logs policy).
+- Does not prevent malware infections, phishing, or compromise of user devices themselves.
+- Some services block known VPN IPs (e.g. streaming or banking sites).
+- VPN does not provide absolute anonymity: browser/device fingerprinting and account logins can still leak user identity.
+
+5. Observed Results
+-------------------
+- Screenshots confirm real IP was hidden and browsing traffic fully encrypted while VPN was connected.
+- Wikipedia and other sites loaded without issue—connection stability unaffected.
+- Disconnecting the VPN immediately restored the original IP and local network status.
+- ProtonVPN was easy to install, configure, and provided robust security features out-of-the-box.
+
+---
+
